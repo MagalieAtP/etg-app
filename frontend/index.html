@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head><title>ETG App</title></head>
+  <body>
+    <h1>ETG App Running</h1>
+    <script>
+      fetch('/api/questions').then(r=>r.json()).then(d=>console.log(d))
+    </script>
+  </body>
+</html>
